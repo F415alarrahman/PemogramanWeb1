@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        /* Tabel Styling */
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin: 20px;
+        }
+
+        /* Padding dan Spacing */
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        /* Rowspan dan Colspan */
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+<head>
+    <title>Sepeda Sehat</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Selamat Datang Website Sepeda Sehat</h1>
+    <center><img src="https://e1.pxfuel.com/desktop-wallpaper/377/555/desktop-wallpaper-windbreaker-webtoon-windbreaker.jpg" alt="Assets 1"></center>
+    <p>Website ini berisi tentang hal yang membuatmu sehat dengan berolahraga sepeda</p>
+    <ul>
+        <li><strong><h2>Meningkatkan Kebugaran Kardiovaskular</h2></strong><br> Bersepeda dapat meningkatkan detak jantung Anda dan memperkuat sistem kardiovaskular, yang berkontribusi pada kesehatan jantung.</li>
+        <img src="Aseets1.jpg" alt="">
+        <li><strong><h2>Peningkatan Kekuatan Otot</h2></strong><br>Bersepeda melibatkan banyak kelompok otot, seperti otot kaki dan otot inti. Ini dapat membantu membangun kekuatan otot Anda.</li>
+        <img src="Assets2.jpg" alt="">
+        <li><strong><h2>Mengurangi Stres</h2></strong><br> Bersepeda di alam terbuka dapat memberikan rasa kesejahteraan dan mengurangi tingkat stres. <code>&lt;h1&gt;</code>.</li>
+        <img src="Assets3.jpg" alt="">
+        <li><strong><h2>Meningkatkan Keseimbangan dan Koordinasi</h2></strong><br> Bersepeda membutuhkan keseimbangan yang baik dan koordinasi tubuh, yang dapat membantu dalam kesehatan fisik secara keseluruhan.<code>&lt;p&gt;</code>.</li>
+        <img src="Assets4.jpg" alt="">
+        <li><strong><h2>Menurunkan Berat Badan</h2></strong><br> Bersepeda secara teratur dapat membantu Anda membakar kalori dan menurunkan berat badan, yang merupakan aspek penting dalam kesehatan.</li>
+        <img src="Assets5.jpg" alt="">
+        <li><strong><h2>Rekomendasi Hiburan agar kamu semangat bersepeda, ayo baca ini</h2></strong><br><a href="https://www.webtoons.com/id/drama/wind-breaker/list?title_no=3228"><i> Wind Breaker</i></a></li>
+    </ul>
+    <h1 style="font-size: small;">Bersepeda adalah kegiatan yang memberikan sejumlah manfaat kesehatan yang signifikan. Pertama-tama, bersepeda secara teratur dapat meningkatkan kesehatan jantung Anda dengan memperkuat otot jantung, meningkatkan sirkulasi darah, dan mengurangi risiko penyakit jantung. Selain itu, bersepeda juga membantu mengurangi risiko penyakit kronis seperti diabetes tipe 2, hipertensi, dan obesitas, karena membakar kalori dan memperbaiki metabolisme.</h1>
+    <table>
+        <!-- Baris 1 -->
+        <tr>
+            <!-- Colspan -->
+            <th colspan="2">Jenis Sepeda</th>
+            <th>Fungsi</th>
+        </tr>
+        <!-- Baris 2 -->
+        <tr>
+            <td>Sepeda Non Listrik</td>
+            <td>Fixie</td>
+            <td>Kesehatan Tubuh</td>
+        </tr>
+        <!-- Baris 3 -->
+        <tr>
+            <td rowspan="2">Sepeda Listrik</td>
+            <td>Sepeda Listrik dengan Pedal</td>
+            <td>Untuk kesehatan dan tidak bikin capek</td>
+        </tr>
+        <!-- Baris 4 -->
+        <tr>
+            <td>Sepeda Listrik tanpa Pedal</td>
+            <td>Refreshing</td>
+        </tr>
+    </table>
+        <form action="proses_form.php" method="POST">
+            <!-- Label Element -->
+            <label for="nama">Nama:</label>
+            <!-- Input Element -->
+            <input type="text" id="nama" name="nama" required>
+            
+            <!-- Text Field -->
+            <br>
+            <textarea id="pesan" name="pesan" rows="4" cols="50">Isi pesan Anda di sini.</textarea>
+            
+            <!-- Option Value -->
+            <br>
+            <label for="jenis_kelamin">Jenis Kelamin:</label>
+            <select id="jenis_kelamin" name="jenis_kelamin">
+                <option value="laki-laki">Laki-laki</option>
+                <option value="perempuan">Perempuan</option>
+            </select>
+            
+            <!-- Submit Button -->
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+</body>
+</html>
